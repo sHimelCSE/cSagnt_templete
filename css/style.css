@@ -90,6 +90,7 @@ p{
     border-radius: 40px;
     transition: 0.4s;
     box-shadow: 0 9px 20px #52075687;
+    text-transform: capitalize !important;
 }
 
 .py_100{
@@ -168,6 +169,7 @@ Common Css end
     background-color: #ab6db0;
     padding: 30px 20px;
     border-radius: 5px;
+    margin-bottom: 15px;
     position: relative;
 }
 .number{
@@ -195,9 +197,29 @@ Common Css end
 }
 /* work_process css end */
 
-
-
-
+/* about_part css start  */
+.about_part{
+    background-color: #f2e9f3;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.about_img {
+    position: relative;
+}
+.overlap_text{
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 10px 12px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #952c9e7c;
+    position: absolute;
+    right: -20px;
+    top: 75px;
+}
+.overlap_text .h3{
+    color: #952c9e;
+}
+/* about_part css end  */
 
 
 
