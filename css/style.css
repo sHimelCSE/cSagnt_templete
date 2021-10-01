@@ -218,6 +218,9 @@ Common Css end
 .overlap_text .h3{
     color: #952c9e;
 }
+.about_content_part .h2{
+    line-height: 1.2;
+}
 /* about_part css end  */
 
 /* service_part css start  */
