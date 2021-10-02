@@ -495,18 +495,23 @@ Common Css end
     transition: all linear 0.4s;
 }
 
-.v_item_overlay i {
+.v_item_overlay a {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 20px;
-    color: #945a99;
-    padding: 40px;
+    height: 70px;
+    width: 70px;
     background-color: #ffffff;
     border-radius: 50%;
+    text-align: center;
 }
+.v_item_overlay a i{
+    font-size: 20px;
+    color: #945a99;
+    line-height: 70px;
 
+}
 .video_item:hover .v_item_overlay {
     transform: scale(1);
     transition: all linear 0.4s;
