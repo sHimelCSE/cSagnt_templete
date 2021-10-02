@@ -672,7 +672,6 @@ Common Css end
 }
 
 .f_menu a {
-    float: left;
     color: #343537;
     font-size: 22px;
     font-weight: 400;
@@ -694,6 +693,7 @@ Common Css end
     border-radius: 50%;
     margin: 0 10px;
     transition: 0.4s;
+    display: inline-block;
 }
 
 .f_icon a i {
