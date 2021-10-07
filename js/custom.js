@@ -9,13 +9,11 @@ $(document).ready(function () {
     $(".venobox").venobox({
         framewidth: "70%",
         titleattr: "data-title",
-        titleBackground: '#ffffff',
+        titleBackground: "#ffffff",
         titleColor: "#ab6db0",
-        titlePosition: 'top',
+        titlePosition: "top",
         share: ["facebook", "linkedin", "pinterest", "twitter"],
         spinner: "cube-grid",
         spinColor: "#ab6db0",
     });
 });
-
-
