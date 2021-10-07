@@ -25,7 +25,7 @@ img {
 
 body {
     background: #ffffff;
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
 h1,
@@ -161,7 +161,6 @@ p {
 .mb_30 {
     margin-bottom: 30px;
 }
-
 
 /* //////////////////////////////////
 Common Css end
@@ -300,7 +299,6 @@ Common Css end
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 .s_item_icon img:last-child {
@@ -460,7 +458,11 @@ Common Css end
     opacity: 1;
     transition: 0.7s;
 }
-
+.team_item_part:hover img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: all linear 0.7s;
+}
 /* team_part css end  */
 
 /* video_part css start  */
@@ -472,15 +474,12 @@ Common Css end
     border-radius: 20px;
 }
 
-.video_img {
-    position: relative;
-}
-
 .video_img img {
     width: 100%;
 }
 
 .video_img {
+    position: relative;
     box-shadow: 0 0 40px #460e4a8c;
 }
 
@@ -492,6 +491,7 @@ Common Css end
     height: 100%;
     background-color: #831f8ca4;
     transform: scale(0);
+    opacity: 0;
     transition: all linear 0.4s;
 }
 
@@ -500,20 +500,20 @@ Common Css end
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 70px;
-    width: 70px;
-    background-color: #ffffff;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
+    background-color: #ffffff;
     text-align: center;
 }
-.v_item_overlay a i{
-    font-size: 20px;
+.v_item_overlay a i {
+    font-size: 25px;
     color: #945a99;
-    line-height: 70px;
-
+    line-height: 100px;
 }
-.video_item:hover .v_item_overlay {
+.video_img:hover .v_item_overlay {
     transform: scale(1);
+    opacity: 1;
     transition: all linear 0.4s;
 }
 
@@ -529,6 +529,8 @@ Common Css end
 
 .t_item_img_part {
     position: relative;
+    width: 100px;
+    height: 100px;
 }
 
 .t_item_img {
@@ -546,7 +548,7 @@ Common Css end
 
 .t_item_img_overlay {
     position: absolute;
-    left: 54%;
+    right: -30px;
     bottom: 10px;
     transform: translate(-55%, 0);
     background-color: #ffffff;
@@ -576,13 +578,12 @@ Common Css end
     cursor: pointer;
     padding: 10px 20px;
 }
-.owl-prev{
+.owl-prev {
     margin-right: 20px;
 }
 .owl-prev,
 .owl-next {
     margin-top: 20px;
-
 }
 
 .t_item_indicator i:hover,
@@ -616,7 +617,6 @@ Common Css end
 .pricingPlan_part_item {
     background-color: #e9ddea;
     transition: 1s;
-
 }
 
 .pricingPlan_part_item .h4 {
@@ -624,10 +624,11 @@ Common Css end
     font-weight: 700;
 }
 
-.pricingPlan_part_item a:nth-child(2) {
+.pricingPlan_part_item span:nth-child(2) {
     font-size: 18px;
     color: #ffffff !important;
     transition: 0.5s;
+    cursor: default;
 }
 
 .pricingPlan_part_item .btn_com span {
@@ -638,6 +639,9 @@ Common Css end
 .pricingPlan_part_item ul li {
     padding: 10px 5px;
     text-transform: capitalize;
+}
+.pricingPlan_part_item a.btn_com{
+    padding: 15px 30px !important;
 }
 
 .pricingPlan_part_item:hover .h4,
@@ -656,7 +660,7 @@ Common Css end
     transition: 0.5s;
 }
 
-.pricingPlan_part_item:hover a:nth-child(2) {
+.pricingPlan_part_item:hover span:nth-child(2) {
     color: #ab6db0 !important;
     transition: 0.5s;
 }
