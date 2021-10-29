@@ -1,0 +1,752 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 575px) {
+    /* common css  */
+    .py_100 {
+        padding: 50px 0;
+    }
+    .pt_100 {
+        padding-top: 50px;
+    }
+    .py_60 {
+        padding: 35px 0;
+    }
+    .pb_60 {
+        padding-bottom: 35px;
+    }
+    .h1 {
+        font-size: 34px;
+    }
+    .h2 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    .h3 {
+        font-size: 20px;
+    }
+    .h4 {
+        font-size: 20px;
+        line-height: 1.6;
+    }
+    .h5 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .py-5 {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+    .pb-5 {
+        padding-bottom: 2rem !important;
+    }
+    .pb-4 {
+        padding-bottom: 1rem !important;
+    }
+    /* common css  */
+
+    .header_part {
+        background-color: #ffffff;
+        padding: 15px 0px;
+    }
+    .header_part img {
+        width: 90%;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgb(171, 109, 176);
+        border-color: rgba(171, 109, 176, 0.4);
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(171, 109, 176, 0.79)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    .menu .nav-item {
+        border-bottom: 1px solid #ccc;
+        text-align: center;
+    }
+    .menu .nav-item:first-child {
+        border-top: 1px solid #ccc;
+        margin-top: 10px;
+    }
+    .menu .nav-item:last-child {
+        border: none;
+        margin-top: 15px;
+    }
+    .menu .nav-item .nav-link {
+        padding: 10px 0px;
+        display: block;
+        text-align: center;
+        font-size: 15px;
+    }
+    .menu .nav-item .nav-link.active,
+    .menu .nav-item .nav-link:hover {
+        background-color: #f1f1f1;
+    }
+    .btn_com {
+        font-size: 18px !important;
+        padding: 10px 20px !important;
+        border-radius: 40px;
+        display: inline-block !important;
+    }
+    .banner_part {
+        padding: 125px 0px 20px;
+    }
+    .banner_part .pe-5 {
+        padding-right: 0 !important;
+    }
+    .banner_content {
+        background-color: #ffffff52;
+    }
+    .work_process_item {
+        padding: 20px 15px;
+        max-width: 335px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .number {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
+    }
+    .text p {
+        color: #ffffff;
+        font-size: 14px;
+        margin-top: 6px;
+    }
+    .about_part {
+        border-top-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+    }
+    .about_img {
+        max-width: 335px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .overlap_text {
+        padding: 7px 9px;
+        right: -40px;
+        top: 40px;
+    }
+    .about_img .h3 {
+        font-size: 16px;
+    }
+    .about_content_part {
+        padding: 0 15px;
+    }
+    .service_item_part {
+        padding: 30px 20px;
+        max-width: 335px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .portfolio_part {
+        border-top-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+    }
+    .portfolio_item_part {
+        max-width: 335px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .p_item_overlay {
+        padding: 4px 10px;
+    }
+    .p_item_overlay span {
+        font-size: 18px;
+    }
+    .portfolio_item_part:hover .p_item_overlay {
+        bottom: 10px;
+    }
+    .p_item_overlay i {
+        font-size: 25px;
+        line-height: 27px;
+    }
+    .team_part {
+        padding-top: 60px !important;
+    }
+    .team_item_part {
+        max-width: 335px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .video_item {
+        padding: 20px;
+        border: 1px solid #a71bb2;
+    }
+    .v_item_overlay a {
+        height: 50px;
+        width: 50px;
+    }
+    .v_item_overlay a i {
+        line-height: 50px;
+        font-size: 20px;
+    }
+    .vbox-title {
+        height: auto;
+    }
+    .vbox-title .h3 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .t_item_content p {
+        font-size: 14px;
+    }
+    .getStarted_item {
+        text-align: center;
+    }
+    .pricingPlan_part_item {
+        max-width: 297px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pricingPlan_part_item .btn_com span {
+        font-size: 20px;
+    }
+    .pricingPlan_part_item .btn_com {
+        font-size: 16px !important;
+    }
+    .pricingPlan_part_item a.btn_com {
+        padding: 10px 20px !important;
+    }
+    .pricingPlan_part_item ul li {
+        padding: 8px 5px;
+    }
+    .f_menu a {
+        margin-bottom: 8px;
+        font-size: 20px;
+        padding: 8px 7px 8px 7px;
+        display: inline-block;
+    }
+    .f_icon a {
+        width: 40px;
+        height: 40px;
+        margin: 0 7px 7px 7px;
+    }
+    .f_icon a i {
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .f_content p {
+        line-height: 1.3;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    /* common css  */
+    .py_100 {
+        padding: 60px 0;
+    }
+    .pt_100 {
+        padding-top: 60px;
+    }
+    .py_60 {
+        padding: 45px 0;
+    }
+    .pb_60 {
+        padding-bottom: 45px;
+    }
+    .h1 {
+        font-size: 40px;
+    }
+    .h2 {
+        font-size: 34px;
+        line-height: 1.2;
+    }
+    .h3 {
+        font-size: 24px;
+    }
+    .h4 {
+        font-size: 22px;
+        line-height: 1.6;
+    }
+    .h5 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .py-5 {
+        padding-top: 2.3rem !important;
+        padding-bottom: 2.3rem !important;
+    }
+    .pb-5 {
+        padding-bottom: 2.3rem !important;
+    }
+    .pb-4 {
+        padding-bottom: 1.5rem !important;
+    }
+    /* common css  */
+
+    .header_part {
+        background-color: #ffffff;
+        padding: 15px 0px;
+    }
+    .header_part img {
+        width: 90%;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgb(171, 109, 176);
+        border-color: rgba(171, 109, 176, 0.4);
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(171, 109, 176, 0.79)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    .menu .nav-item {
+        border-bottom: 1px solid #ccc;
+        text-align: center;
+    }
+    .menu .nav-item:first-child {
+        border-top: 1px solid #ccc;
+        margin-top: 10px;
+    }
+    .menu .nav-item:last-child {
+        border: none;
+        margin-top: 15px;
+    }
+    .menu .nav-item .nav-link {
+        padding: 10px 0px;
+        display: block;
+        text-align: center;
+        font-size: 15px;
+    }
+    .menu .nav-item .nav-link.active,
+    .menu .nav-item .nav-link:hover {
+        background-color: #f1f1f1;
+    }
+    .btn_com {
+        font-size: 18px !important;
+        padding: 10px 20px !important;
+        border-radius: 40px;
+        display: inline-block !important;
+    }
+    .banner_part {
+        padding: 125px 0px 20px;
+    }
+    .banner_part .pe-5 {
+        padding-right: 0 !important;
+    }
+    .banner_content {
+        background-color: #ffffff52;
+    }
+    .work_process_item {
+        padding: 20px 15px;
+    }
+    .number {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+    }
+    .text p {
+        color: #ffffff;
+        font-size: 14px;
+        margin-top: 6px;
+    }
+
+    .overlap_text {
+        padding: 10px 12px;
+        right: -10px;
+        top: 70px;
+    }
+    .about_img .h3 {
+        font-size: 18px;
+    }
+    .about_content_part {
+        padding: 0 15px;
+    }
+    .service_item_part {
+        padding: 30px 20px;
+    }
+    .p_item_overlay {
+        padding: 4px 10px;
+    }
+    .p_item_overlay span {
+        font-size: 18px;
+    }
+    .p_item_overlay i {
+        font-size: 25px;
+        line-height: 27px;
+    }
+    .team_part {
+        padding-top: 60px !important;
+    }
+
+    .video_item {
+        padding: 25px;
+        border: 1px solid #a71bb2;
+    }
+    .v_item_overlay a {
+        height: 60px;
+        width: 60px;
+    }
+    .v_item_overlay a i {
+        line-height: 60px;
+        font-size: 20px;
+    }
+    .vbox-title {
+        height: auto;
+    }
+    .vbox-title .h3 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .t_item_content p {
+        font-size: 14px;
+    }
+    .getStarted_item {
+        text-align: center;
+    }
+    .pricingPlan_part_item .btn_com span {
+        font-size: 20px;
+    }
+    .pricingPlan_part_item .btn_com {
+        font-size: 16px !important;
+    }
+    .pricingPlan_part_item a.btn_com {
+        padding: 10px 20px !important;
+    }
+    .pricingPlan_part_item ul li {
+        padding: 8px 5px;
+    }
+    .f_menu a {
+        margin-bottom: 8px;
+        font-size: 20px;
+        padding: 8px 7px 8px 7px;
+        display: inline-block;
+    }
+    .f_icon a {
+        width: 40px;
+        height: 40px;
+        margin: 0 7px 7px 7px;
+    }
+    .f_icon a i {
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .f_content p {
+        line-height: 1.3;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* common css  */
+    .py_100 {
+        padding: 60px 0;
+    }
+    .pt_100 {
+        padding-top: 60px;
+    }
+    .py_60 {
+        padding: 45px 0;
+    }
+    .pb_60 {
+        padding-bottom: 45px;
+    }
+    .h1 {
+        font-size: 40px;
+    }
+    .h2 {
+        font-size: 34px;
+        line-height: 1.2;
+    }
+    .h3 {
+        font-size: 24px;
+    }
+    .h4 {
+        font-size: 22px;
+        line-height: 1.6;
+    }
+    .h5 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .py-5 {
+        padding-top: 2.3rem !important;
+        padding-bottom: 2.3rem !important;
+    }
+    .pb-5 {
+        padding-bottom: 2.3rem !important;
+    }
+    .pb-4 {
+        padding-bottom: 1.5rem !important;
+    }
+    /* common css  */
+
+    .header_part {
+        background-color: #ffffff;
+        padding: 15px 0px;
+    }
+    
+    .navbar-light .navbar-toggler {
+        color: rgb(171, 109, 176);
+        border-color: rgba(171, 109, 176, 0.4);
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(171, 109, 176, 0.79)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    .menu{
+        max-width: 400px;
+        margin-left: auto;
+
+    }
+    .menu .nav-item {
+        border-bottom: 1px solid #ccc;
+        text-align: right;
+    }
+    .menu .nav-item:first-child {
+        border-top: 1px solid #ccc;
+        margin-top: 10px;
+    }
+    .menu .nav-item:last-child {
+        border: none;
+        margin-top: 15px;
+    }
+    .menu .nav-item .nav-link {
+        padding: 10px 20px;
+        display: block;
+        font-size: 15px;
+    }
+    .menu .nav-item .nav-link.active,
+    .menu .nav-item .nav-link:hover {
+        background-color: #f1f1f1;
+    }
+    .btn_com {
+        font-size: 18px !important;
+        padding: 10px 20px !important;
+        border-radius: 40px;
+        display: inline-block !important;
+    }
+    .banner_part {
+        padding: 125px 0px 20px;
+    }
+    .banner_part .pe-5 {
+        padding-right: 1rem !important;
+    }
+    .overlap_text {
+        right: -20px;
+        top: 100px;
+    }
+    .p_item_overlay {
+        padding: 7px 12px;
+    }
+    .p_item_overlay span {
+        font-size: 20px;
+    }
+    .p_item_overlay i {
+        font-size: 27px;
+    }
+
+    .v_item_overlay a {
+        height: 70px;
+        width: 70px;
+    }
+    .v_item_overlay a i {
+        line-height: 70px;
+        font-size: 25px;
+    }
+    .vbox-title {
+        height: auto;
+    }
+    .vbox-title .h3 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .t_item_content p {
+        font-size: 15px;
+    }
+    .getStarted_item {
+        text-align: center;
+    }
+    
+    .pricingPlan_part_item .btn_com span {
+        font-size: 22px;
+    }
+    .pricingPlan_part_item .btn_com {
+        font-size: 16px !important;
+    }
+    .pricingPlan_part_item a.btn_com {
+        padding: 10px 20px !important;
+    }
+    .pricingPlan_part_item ul li {
+        padding: 8px 5px;
+    }
+    .f_menu a {
+        margin-bottom: 8px;
+        font-size: 22px;
+        padding: 10px 8px 10px 8px;
+        display: inline-block;
+    }
+    .f_icon a {
+        width: 40px;
+        height: 40px;
+        margin: 0 7px 7px 7px;
+    }
+    .f_icon a i {
+        font-size: 16px;
+        line-height: 40px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* common css  */
+    .py_100 {
+        padding: 80px 0;
+    }
+    .pt_100 {
+        padding-top: 80px;
+    }
+    .py_60 {
+        padding: 50px 0;
+    }
+    .pb_60 {
+        padding-bottom: 50px;
+    }
+    .h1 {
+        font-size: 46px;
+    }
+    .h2 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+    .h3 {
+        font-size: 23px;
+    }
+    .h4 {
+        font-size: 23px;
+    }
+    .h5 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .btn_com {
+        padding: 17px 38px !important;
+    }
+    /* common css  */
+
+    .header_part {
+        padding: 15px 0px;
+    }
+    .menu .nav-item .nav-link {
+        padding: 22px 13px;
+    }
+    .menu .nav-item .ms-lg-5 {
+        margin-left: 1.5rem !important;
+    }
+    .banner_part {
+        padding: 135px 0px 20px;
+    }
+
+    .overlap_text {
+        padding: 10px 12px;
+        right: -10px;
+        top: 65px;
+    }
+    .overlap_text .h3{
+        font-size: 18px;
+    }
+
+    .work_process_item {
+        padding: 22px 15px;
+    }
+    .p_item_overlay {
+        padding: 8px 12px;
+    }
+    .p_item_overlay span {
+        font-size: 20px;
+    }
+    .p_item_overlay i {
+        font-size: 27px;
+    }
+
+    .pricingPlan_part_item .btn_com span {
+        font-size: 22px;
+    }
+    .pricingPlan_part_item .btn_com {
+        font-size: 16px !important;
+    }
+    .pricingPlan_part_item a.btn_com {
+        padding: 10px 20px !important;
+    }
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    /* common css  */
+    .py_100 {
+        padding: 90px 0;
+    }
+    .pt_100 {
+        padding-top: 90px;
+    }
+    .py_60 {
+        padding: 55px 0;
+    }
+    .pb_60 {
+        padding-bottom: 55px;
+    }
+    .h1 {
+        font-size: 50px;
+    }
+    .h2 {
+        font-size: 38px;
+    }
+    
+    .btn_com {
+        padding: 17px 38px !important;
+    }
+    /* common css  */
+
+    .header_part {
+        padding: 15px 0px;
+    }
+    .menu .nav-item .nav-link {
+        padding: 22px 13px;
+    }
+    .menu .nav-item .ms-lg-5 {
+        margin-left: 1.5rem !important;
+    }
+    .banner_part {
+        padding: 135px 0px 20px;
+    }
+    .overlap_text .h3{
+        font-size: 20px;
+    }
+    .work_process_item {
+        padding: 22px 15px;
+    }
+    .p_item_overlay {
+        padding: 8px 12px;
+    }
+    .p_item_overlay span {
+        font-size: 20px;
+    }
+    .p_item_overlay i {
+        font-size: 27px;
+    }
+
+    .pricingPlan_part_item .btn_com span {
+        font-size: 22px;
+    }
+    .pricingPlan_part_item .btn_com {
+        font-size: 16px !important;
+    }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .banner_part {
+        padding: 145px 0px 80px;
+    }
+    .overlap_text {
+        top: 90px;
+    }
+}
